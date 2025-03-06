@@ -1,13 +1,13 @@
 import pickle
 import numpy as np
 
-# Load trained model
+# Load Trained Model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
-# Generate test data
+# Generate Test Data
 X_test = np.random.rand(5, 5)
 
-# Predict
+# Predict Using Model
 predictions = model.predict(X_test)
 print("✅ Model Integration Test Passed. Predictions:", predictions)

@@ -26,6 +26,6 @@ node {
     }
 
     stage('Deploy') {
-        echo "Deployment stage"
+        echo "Deployment stage (expand as needed)"
     }
 }
